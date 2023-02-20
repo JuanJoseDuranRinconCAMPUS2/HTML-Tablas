@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tablas en HTML</title>
+</head>
+<body>
+    <p>
+        Una tabla no es otra cosa más que un medio de organizar datos en filas y columnas. 
+        Este concepto ha estado presente en nuestra sociedad por un largo período de tiempo
+        y ha sido adoptado por HTML en sus etapas iniciales, como una forma de transmitir 
+        información que, de otro modo, no sería comprendida tan fácilmente.
+    </p>
+    
+    
+<table class="default">
+
+    <tr>
+  
+      <td>Celda 1</td>
+  
+      <td>Celda 2</td>
+  
+      <td>Celda 3</td>
+  
+    </tr>
+  
+    <tr>
+  
+      <td>Celda 4</td>
+  
+      <td>Celda 5</td>
+  
+      <td>Celda 6</td>
+  
+    </tr>
+  
+  </table>
+
+  <h1> Etiquetas de tablas</h1>
+
+  <h2> < th > y < tfooter ></h2>
+  <p>
+    el elemento th se ubicada en la primera fila de la tabla, encima de las celdas comunes.
+    el elemento tfooter, se ubicada en la ultima fila de la tabla, debajo de las celdas comunes.
+  </p>
+  
+<table class="default" border="3px">
+
+    <tr>
+  
+      <th>Hoy</th>
+  
+      <th>Mañana</th>
+  
+      <th>Domingo</th>
+  
+    </tr>
+  
+    <tr>
+  
+      <td>soleado</td>
+  
+      <td>soleado</td>
+  
+      <td>lluvias</td>
+  
+    </tr>
+  
+    <tr>
+  
+      <td>13°C</td>
+  
+      <td>19°C</td>
+  
+      <td>10°C</td>
+  
+    </tr>
+  
+    <tr>
+  
+      <td>E 13 km/h</td>
+  
+      <td>E 11 km/h</td>
+  
+      <td>S 16 km/h</td>
+  
+    </tr>
+    
+    <tfoot>
+        <td>CLIMA</td>
+        <td>Pronostico</td>
+        <td>17-19 febrero</td>
+    </tfoot>
+    </table>
+    <h2>< scope >< /scope > </h2>
+    <p>
+        El atributo scope provee un mecanismo para indicar explícitamente a qué celdas afecta una celda de encabezado. 
+        Este atributo solo puede ser declarado en una celda de encabezado y tomar los valores "col", "row", "colgroup" 
+        y "rowgroup". Los valores "col" y "row" indican que la celda de encabezado provee información para el resto de
+        las celdas en la columna o fila (respectivamente) en que está presente
+    </p>
+    <h2>caption</h2>
+    <p>
+        los títulos de las tablas son insertados mediante el elemento caption, 
+        justo después de la etiqueta de apertura de la misma y antes que todos 
+        los demás elementos de su estructura. 
+    </p>
+    <table border="3px">
+        <caption>Pronostico del clima del 17 al 19 de febrero</caption>
+        <tr>
+          <th scope="row"> Dia</th>
+          <th>Hoy</th>
+          <th>Mañana</th>
+          <th>Domingo</th>
+      
+        </tr>
+      
+        <tr>
+          <th>Clima</th>
+          <td>soleado</td>
+          <td>soleado</td>
+          <td>lluvias</td>
+      
+        </tr>
+      
+        <tr>
+          <th>Temperatura</th>
+          <td>13°C</td>
+          <td>19°C</td>
+          <td>10°C</td>
+      
+        </tr>
+      
+        <tr>
+          <th>Vientos</th>
+          <td>E 13 km/h</td>
+          <td>E 11 km/h</td>
+          <td>S 16 km/h</td>
+      
+        </tr>
+        
+        <tfoot>
+            <td>CLIMA</td>
+            <td>Pronostico</td>
+            <td>17-19 febrero</td>
+        </tfoot>
+      </table>
+    
+</body>
+</html>
