@@ -5,56 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Propiedades de imagen</title>
+    <title>Skills</title>
 </head>
 <body>
-    <h1> Propiedades de Imagen</h1>
-    <p>
-        La < img > etiqueta HTML se utiliza para incrustar una imagen en una página web.
-        Técnicamente, las imágenes no se insertan en una página web; las imágenes están
-        vinculadas a páginas web. La < img > etiqueta crea un espacio de espera para la imagen de referencia.
-    </p>
+    <h1> My skills</h1>  
+    <table border="3px">
+        <tr>
+          <th scope="row">JuanJoseD</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+          <th>5</th>
+          <th>6</th>
+        </tr>
+        <tr>
+          <th>Hobbies</th>
+          <td>ediccion de video</td>
+          <td>ediccion de imagenes</td>
+          <td>Video juegos</td>
+          <td>Desarrollo de juegos indie :3</td>
+          <td>La Lectura</td>
+          <td>Desarrollo de software</td>
+        </tr>
+        <tr>
+          <th>Gustos</th>
+          <td>el frontend</td>
+          <td>La saga de Pokemon (Gen favorita: 5)</td>
+          <td>El rock y el Metal</td>
+          <td>Los videojuegos (sobre todo terror y accion)</td>
+          <td>El mantenimiento de computadoras</td>
+          <td>libros de ciencia ficcion e historia</td>
+        </tr>
+        <tr>
+        <th>Skill</th>
+          <td>Modelado 3D desde cero con cinema4D (a punto de pasarme a blender)</td>
+          <td>Maquetacion nativa (html y css)</td>
+          <td>Unity</td>
+          <td>Desarrollo de apks con clickteam</td>
+          <td>Python</td>
+          <td>Desarrollo de pixel arts</td>
+          </tr>
+        <tr>
+          <th>Skills curiosos</th>
+          <td>llegue aqui sin saber javascript :3</td>
+          <td>he trabajado en un juego de terror que termino cancelado :c</td>
+          <td>trabajo arreglando computadoras (llamenme necesito comer :c)</td>
+          <td>AR 43 en Geshin impact (aqui se van mis horas de sueño)</td>
+          <td>tengo un gran vicio a los juegos rpg y juegos pixel art</td>
+          <td>Me encanta el pixel art, al punto que mi ultimo juego "The Resurge of the Earth" es hecho con arte y tematica pixel</td>
+        </tr>
+      </table>
+      <h1>Aprovecho y dejo algunos de mis diseño</h1>
 
-    <h2>SRC</h2>
-    <p>
-        El src atributo requerido especifica la ruta (URL) a la imagen.
-    </p>
-    <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen.jpg">
-
-    <h2> ALT</h2>
-    <p>
-        El altatributo requerido proporciona un texto alternativo para una imagen, si el usuario por algún 
-        motivo no puede verla (debido a una conexión lenta, un error en el atributo src o si el usuario 
-        usa un lector de pantalla).
-    </p>
-    <img src="#" alt="error de carga">
-    <h2> width y height</h2>
-    <p>
-        Los atributos widthy heightsiempre definen el ancho y el alto de la imagen en píxeles.
-    </p>
-    <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen.jpg"  width="500" height="600">
-    <h2>Float</h2>
-    <p>
-        Usa la propiedad CSS floatpara dejar que la imagen flote a la derecha o a la izquierda de un texto
-    </p>
-    <p>
-        <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen.jpg" alt="Smiley face" style="float:left;width:42px;height:42px;">
-        imagen con float.
-    </p>
-    <h2>Background image</h2>
-    <p>
-        La propiedad CSS background-image establece una o más imágenes de fondo para un elemento.
-        Los bordes del elemento se dibujan encima de ellos y el background-color se dibuja debajo de ellos.
-        La forma en que se dibujan las imágenes en relación con el cuadro y sus bordes se define mediante
-        las propiedades CSS background-clip y background-origin.
-    </p>
-    <h2>background-attachment</h2>
-    <p>
-      La propiedad CSS background-attachment determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.
-    </p>
-    <h2>background-size</h2>
-    <p>
-      La propiedad CSS background-size especifica el tamaño de las imágenes de fondo.
-    </p>
+      <p>
+        "pasa el mouse en la imagen" 
+        <img alt="Cambiar imagen"  onmouseout="this.src='Trabajos.jpg';" onmouseover="this.src='oficina3.png';" src="Trabajos.jpg" />
+      </p>
 </body>
 </html>

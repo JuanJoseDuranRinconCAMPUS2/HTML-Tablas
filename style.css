@@ -1,7 +1,51 @@
+body{
+    background-image: url(logo\ golden.PNG);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: 20%;
+    background-color: cornsilk;
+    
+    
+}
+
 table{
     text-align: justify;
+    align-items: center;
     background-color: rgb(232, 255, 249);
-    border-radius:22px; 
     border-width: 10px;
     border-color: black;
+    margin: 10%;
+   padding: 2%;
+}
+
+table tr{
+    margin: 2%;
+}
+
+table tr th{
+    background-color: antiquewhite;
+}
+
+table tr td{
+    background-color:cornsilk;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+    
+}
+img{
+    width: 700px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+
+}
+h1{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-decoration:underline;
 }
